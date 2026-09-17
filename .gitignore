@@ -1,0 +1,40 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Backtest engine cache (vectorbt writes here)
+.vectorbt/
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+virtualenv/
+*.egg-info/
+build/
+dist/
+
+# Secrets -- never commit real keys. Keep a template as .env.example
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
